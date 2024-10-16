@@ -8,7 +8,7 @@ public class faturamentoPorEstado {
 
         double somaFaturamento = sp + rj + mg + es + etc; // soma dos valores
 
-        System.out.printf("Porcentagem representada por São Paulo: %.2f%%%n", (sp / somaFaturamento) * 100);
+        System.out.printf("Porcentagem representada por Sao Paulo: %.2f%%%n", (sp / somaFaturamento) * 100);
         System.out.printf("Porcentagem representada pelo Rio de Janeiro: %.2f%%%n", (rj / somaFaturamento) * 100);
         System.out.printf("Porcentagem representada por Minas Gerais: %.2f%%%n", (mg / somaFaturamento) * 100);
         System.out.printf("Porcentagem representada pelo Espirito Santo: %.2f%%%n", (es / somaFaturamento) * 100);
